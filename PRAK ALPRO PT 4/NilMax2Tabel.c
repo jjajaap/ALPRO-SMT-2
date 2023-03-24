@@ -4,7 +4,6 @@ int main(){
     int N[10]= {7,4,5,7,6,5,3,5,1,4};
     int i;
     int max1, max2;
-    //scanf("%d", &N, &T);
 
     max1 = 0;
     max2 = 0;
