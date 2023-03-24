@@ -6,6 +6,7 @@ int main(){
     int jum;
     int i, j;
 
+    jum = 0;
     for (i = 0; i < 10; i++){
         elmt = 1;
         for (j = i + 1; j < 10; j++){
@@ -19,4 +20,5 @@ int main(){
         }
     }
     printf("%d", jum);
+    return 0;
 }
