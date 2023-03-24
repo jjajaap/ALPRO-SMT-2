@@ -17,4 +17,5 @@ int main(){
             printf("%d", N[i]);
         }
     }
+    return 0;
 }
