@@ -18,7 +18,11 @@ int main(){
             max2 = N[i];
         }
     }
-    printf("%d", max2);
-
+    if (max1 == max2){
+        printf ("%d", 0);
+    }
+    else{
+        printf("%d", max2);
+    }
     return 0;
 }
